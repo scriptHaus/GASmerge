@@ -1,3 +1,6 @@
+// Script is from github.com/scriptHaus
+// Use is licensed under GPL v3.0
+
 //---UI functions---
 
 function onOpen() {
@@ -19,10 +22,8 @@ function showSidebar() {
 function listFolderContents(folderID) {
 
     var ss = SpreadsheetApp.getActiveSpreadsheet();
+    ss.setActiveSheet(ss.insertSheet("GASmerge",0))
     var sheet = ss.getActiveSheet();
-    
-    ss.setActiveSheet(sheet);
-    sheet.clearContents();
     
     var columns = [['file link','name', 'email', 'email status', 'date sent']];
     sheet.getRange(1,1,1,5) //getRange(start row, start column, number of rows, number of columns) 
