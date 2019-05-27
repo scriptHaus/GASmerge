@@ -1,11 +1,11 @@
 # GASmerge
 A simple Google Sheets mail merge tool using Google Apps Script.  This tool combines the power of Drive, Sheets and Gmail into one mighty little mail merge tool.
 
-This script has two automated processes: 1) A folder link iterator & 2) The mail merge.
+This script automates two processes: 1) A folder link iterator & 2) A mail merge.
 
-1) The link iterator will extract the all of the file links from a Drive folder.  It allows you to paste in the URL of the folder with all of the docs you want to grab the links of.  
+1) The link iterator will extract the all of the file links from a Drive folder.  It allows you to paste in the URL of a Google Drive folder with all of the docs you want to grab the links from.  
 
-2) The Mail Merge will send out emails with the linked file as a PDF attachment.
+2) After you've added the names and emails to the sheet, the mail merge will send out an email with the linked file as a PDF attachment.
 ---
 ### Using the script for the first time
 
