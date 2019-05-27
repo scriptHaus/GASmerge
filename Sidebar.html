@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base target="_top">
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+    <!-- The CSS package above applies Google styling to buttons and other elements. -->
+
+    <style>
+        /* Tables */
+        table {
+            border: none;
+            border-collapse: collapse;
+            text-align: left;
+            display: block;
+        }
+
+        th,
+        td {
+            border: none;
+            border-collapse: collapse;
+            padding: 5px;
+            text-align: left;
+        }
+
+    </style>
+    <script>
+        function grabId() { 
+            var fileID = document.getElementById("folderURL").value;
+            return fileID.match(/[-\w]{25,}/); 
+        }
+    </script>
+</head>
+<body>
+  <table>
+    <div class="one">
+        <tr><td><p>First, copy the Drive URL of the folder</p></td></tr>
+        <tr><td><input type="url" id="folderURL" placeholder="Paste folder URL here" onclick=""></td></tr>
+        <tr><td><button class="action" id="folderLinks" onclick="google.script.run.listFolderContents(grabId());">Get the Links</button></td></tr>
+    </div>
+    <br>
+    <div class="two">
+        <tr><td><p>Next, enter in the names and emails of the recipients </p></td></tr>
+    </div>
+    <br>
+    <div class="three">
+        <tr><td><p>Finally, send the Emails</p></td></tr>
+        <tr><td><button class="action" id="sendMail" onclick="google.script.run.mailMerge();">Send Email</button> </td></tr>
+    </div>
+    <footer>
+    </footer>
+  </table>
+</body>
+</html>
