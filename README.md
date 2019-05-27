@@ -73,7 +73,11 @@ To list the PDF files you will be using as attachments, paste the URL of the Dri
 
 ![Drive URL Screenshot](screenshots/driveURL.png#center?raw=true "Drive URL")
 
-The script will create a new sheet in your workbook and add hyperlinks for all of the documents it finds in the Drive folder.
+The script will create a new sheet in your workbook... 
+
+![New Tab Screenshot](screenshots/newTab.png?raw=true "GASmerge Tab")
+
+...and add hyperlinks for all of the documents it finds in the Drive folder.
 
 Next, add the names and email addresses of the contacts that will receive each of the files listed.  (Be sure to distinguish multiple email addresses by using a comma separator). 
 
