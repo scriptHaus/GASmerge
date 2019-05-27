@@ -6,30 +6,6 @@ This script automates two processes: 1) A folder link iterator & 2) A mail merge
 1) The link iterator will extract the all of the file links from a Drive folder.  It allows you to paste in the URL of a Google Drive folder with all of the docs you want to grab the links from.  
 
 2) After you've added the names and emails to the sheet, the mail merge will send out an email with the linked file as a PDF attachment.
----
-### Using the script for the first time
-
-When you install this script, a new "Sidebar" tab will be added to the Sheets menu.
-
-![Sidebar Screenshot](screenshots/Sidebar.png#center?raw=true "Sidebar")
-
-In order to access the Sidebar, you will need to authorize the script to access the data.  When you open the Sidebar for the first time, you may see an Authorization prompt like this. 
-
-![Authorization Screenshot](screenshots/Authorization.png?raw=true "Authorization")
-
-Because this is a script that you are installing yourself (instead of buying an officially verified third-party script) you will need to acknowledge this fact by clicking on "Advanced"...
-
-![Not Verified Screenshot](screenshots/notVerified.png?raw=true "Not Verified")
-
-...then scroll down to the bottom and click on "Go to Untitled project (unsafe)".
-
-![Unsafe Screenshot](screenshots/Unsafe.png?raw=true "Unsafe")
-
-This will bring up another screen asking you to verify that you are allowing the script to access your Drive (for the attachments), Sheets (for the merge data) and Gmail (for sending the emails).  There is no third party info used in the script, but it does warn you that the script could include it (if you modified the script to do so).  To proceed, you must click the "Allow" button.
-
-![Allow Screenshot](screenshots/Allow.png?raw=true "Allow")
-
-Once you have finished that, you're ready to go!
 
 ---
 ### Installation
@@ -57,6 +33,31 @@ Again, delete the sample HTML code and replace with the GASmerge Sidebar.html co
 ![Sample HTML file Screenshot](screenshots/sampleHTML.png?raw=true "Sample HTML file")
 
 Once you have saved both files, you are ready to use GASmerge!
+
+---
+### Using the script for the first time
+
+When you install this script, a new "Sidebar" tab will be added to the Sheets menu.
+
+![Sidebar Screenshot](screenshots/Sidebar.png#center?raw=true "Sidebar")
+
+But in order to access the Sidebar, you will need to authorize the script to access the data.  When you open the Sidebar for the first time, you may see an Authorization prompt like this. 
+
+![Authorization Screenshot](screenshots/Authorization.png?raw=true "Authorization")
+
+Because this is a script that you are installing yourself (instead of buying an officially verified third-party script) you will need to acknowledge this fact by clicking on "Advanced"...
+
+![Not Verified Screenshot](screenshots/notVerified.png?raw=true "Not Verified")
+
+...then scroll down to the bottom and click on "Go to Untitled project (unsafe)".
+
+![Unsafe Screenshot](screenshots/Unsafe.png?raw=true "Unsafe")
+
+This will bring up another screen asking you to verify that you are allowing the script to access your Drive (for the attachments), Sheets (for the merge data) and Gmail (for sending the emails).  There is no third party info used in the script, but it does warn you that the script could include it (if you modified the script to do so).  To proceed, you must click the "Allow" button.
+
+![Allow Screenshot](screenshots/Allow.png?raw=true "Allow")
+
+Once you have finished that, you're ready to go!
 
 ---
 ### Instructions
