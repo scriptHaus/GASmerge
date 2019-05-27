@@ -69,7 +69,7 @@ That will open up the Sidebar.
 
 ![Open Sidebar Screenshot](screenshots/openSidebar.png#center?raw=true "Open Sidebar")
 
-To list the PDF files you will be using as attachments, paste the URL of the Drive folder containing the PDFs into the input box in the Sidebar, then push the "Get the Links" button.
+To list the PDF files you will be using as attachments, paste the URL of the Drive folder containing the PDFs into the input box in the Sidebar, then push the "Get the Links" button.  The Drive folder should look something like this.
 
 ![Drive URL Screenshot](screenshots/driveURL.png#center?raw=true "Drive URL")
 
